@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#home" class="topmenu">Home</a>
+        <a href="#aboutme" class="topmenu">About Me</a>
+        <a href="#skills" class="topmenu">Skills</a>
+        <a href="#projects" class="topmenu">Projects</a>
+        <a href="#recommendations" class="topmenu">Recommendations</a>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="profile_name">Wilson Fisk (Kingpin) <br>
+            Email: wilson.fisk@kingpin.com <br>
+            Contact: (555) 123-4567 <br></div>
+        <!-- Home Icon -->
+        <a href="#home" id="home_btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="aboutme">
+        <img src="image.jpeg" alt="Your Profile Image" class="profile_image">
+        <p class="contact_info">I am Wilson Fisk, a powerful figure in New York City's criminal underworld, known as the Kingpin. With a background shaped by a tough upbringing, I have risen to become a formidable crime lord and influential businessman. My primary focus is on expanding my control over the city's criminal activities while maintaining a façade of legitimacy through my business empire.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-card">
+            <img src="html.jpeg" alt="HTML" class="skill-icon">
+            <div>Physical Prowess (20+ years)</div>
+        </div>
+        <div class="skill-card">
+            <img src="css.jpeg" alt="CSS" class="skill-icon">
+            <div>Strategic Thinking (30+ years)</div>
+        </div>
+        <div class="skill-card">
+            <img src="js.jpeg" alt="JavaScript" class="skill-icon">
+            <div>Influence and Manipulation (25+ years)</div>
+        </div>
+        <div class="skill-card">
+            <img src="react.jpeg" alt="React" class="skill-icon">
+            <div>Combat Skills (20+ years)</div>
+        </div>
+        <div class="skill-card">
+            <img src="node.jpeg" alt="Node.js" class="skill-icon">
+            <div>Resource Management (25+ years)</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Legitimate Business Ventures</h3>
+            <p>Built a legitimate business empire that serves as a front for my criminal operations, enabling me to operate with a veneer of respectability.</p>
+        </div>
+        <div class="project-card">
+            <h3>Criminal Empire Expansion</h3>
+            <p>Successfully consolidated various criminal organizations under my control, leading to significant influence over New York City's illegal activities.</p>
+        </div>
+        <div class="project-card">
+            <h3>High-Profile Criminal Operations</h3>
+            <p>Engaged in and directed major criminal enterprises, including drug trafficking, racketeering, and murder.</p>
+        </div>
+        <div class="project-card">
+            <h3>Political Influence</h3>
+            <p>Actively worked to influence and control local and state politics, leveraging bribery and manipulation to further my criminal agenda and protect my interests.</p>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="recommendation">"Wilson Fisk is one of the most formidable adversaries I've ever faced. His strategic mind and ruthless methods make him a dangerous and unpredictable foe."</div>
+        <div class="recommendation">"Kingpin's influence extends beyond the criminal underworld; his ability to manipulate and control both people and resources is unmatched"</div>
+        <div class="recommendation">"Fisk's operations are extensive and deeply entrenched. His resource management and strategic planning make him a significant player in the criminal world."</div>
+        <input type="text" id="recommend_input" placeholder="Leave a Recommendation">
+        <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+    </section>
+    <!-- Popup Confirmation -->
+    <div id="popup" class="popup">
+        <p>Your recommendation has been submitted!</p>
+        <button id="popup_ok" onclick="showPopup(false)">OK</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

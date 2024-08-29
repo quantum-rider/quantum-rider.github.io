@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #4B0082;
+    padding: 10px;
+    text-align: center;
+}
+
+.topmenu {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile_name {
+    font-size: 30px;
+    color: #ADD8E6;
+    float: left;
+    padding: 20px;
+}
+
+#home_btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4B0082;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* About Me Section */
+#aboutme {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile_image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.contact_info {
+    display: inline-block;
+    color: #003366; /* Darker shade of blue */
+    vertical-align: middle;
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px;
+    text-align: center;
+}
+
+.skill-card {
+    background-color: #4B0082;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #DDA0DD;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Recommendations Section */
+#recommendations {
+    padding: 20px;
+    text-align: center;
+}
+
+.recommendation {
+    background-color: #FFE4E1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#recommend_input {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#recommend_btn {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Popup Confirmation */
+.popup {
+    display: none;
+    background-color: #32CD32;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#popup_ok {
+    background-color: white;
+    color: #32CD32;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
